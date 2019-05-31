@@ -1,0 +1,14 @@
+language: node_js
+node_js: node
+cache:
+  directories:
+  - node_modules
+services:
+- mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: NcYasl/2P2YbGB4y7WmXIqOUvcFc3k6QnGTKD2wRjsqxK+AQniaY6jXLhOGbo9zHbmYOWz8kR0YGibDIy/sDyconTINfgBFX45EVnCNYDMIF0IWxLGSj1WB8IcYKlDnxfeKs8wLHEdJo4X64BbZ0ckKEkSWfHdCx6sOPhLL8e+MxE/Fz3afXPUNesaWtpbI0vX4p0kpPgy+bMKkh5msZmobmo9WCG1+45VN39TbpeFxxZycXiDtZ556o9I/jMjyhTzgiDmGldmbDOIYu1IXWC2H2oZ8UOH6Xc1TKPg3oZhmeNXBg24oPK04QkJ9g7/1JMKRl4occZ/vo2XByJDoM/fuRqbonUOaKvFTI/kv41YFXqmZMa9w4jMcjAXSdWN5H7b8I7MOhuMIb7Cgr1AKDE5Xg16M3dtqZmwidRYfbLpKqBJjkk1cP4Dyi8MXgqMcrNAHD3xoAhiubX0oHEbZYRE9TarIx2wkpf+I/KAOLGXrexP2NIF40sas6WRlMMeYLHtn2Cc+BhQFxItgBF4dJyqEJI7H4KIulbJJ7fbofAs/Gaxy5OvsbTukvdxHcOOWYtcp7IRDeCqVSr1+qmW6wMB8wZynLRQvz4IzlZrZ0oVDaYr9bn7KrZBvWBUuU8bRNv9gLRBormFxLSUkZF1Fd1yloU/5gxKMq2+/3VAitbDc=
+  app: bitpress-api
+  on:
+    repo: sarL3y/bitpress-api
