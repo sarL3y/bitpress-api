@@ -1,0 +1,27 @@
+{
+  "name": "bitpress-api",
+  "version": "1.0.0",
+  "description": "API for BitPress",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarL3y/bitpress-api.git"
+  },
+  "author": "sarL3y",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarL3y/bitpress-api/issues"
+  },
+  "homepage": "https://github.com/sarL3y/bitpress-api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "express": "^4.17.1",
+    "mocha": "^6.1.4",
+    "mongoose": "^5.5.11"
+  }
+}
