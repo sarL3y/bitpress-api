@@ -4,7 +4,7 @@
   "description": "API for BitPress",
   "main": "server.js",
   "scripts": {
-    "start": "server.js",
+    "start": "node server.js",
     "test": "mocha --exit"
   },
   "repository": {
